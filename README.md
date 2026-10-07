@@ -4,7 +4,7 @@ Uses a hidden PIR sensor to detect movement then triggers fx sound board to play
 
 ## Overview
 
-This particular project plays spooky, creepy sounds meant to scare unsuspecting folks on Halloween as they walk by.
+This particular project plays spooky, creepy sounds meant to scare unsuspecting folks on Halloween as they walk by. This could be set up for all kinds of jump scares like a cackling witch, a giggling ghost child, whispering voices, eerie footsteps, or the classic tracks from iconic horror figures (think Pennywise clown laugh 🤡).
 
 When motion is detected, a random sound file is played based on which PIN is triggered on an Sound FX board. The microcontroller toggles between PINs when there is a trigger event. Each trigger PIN can play up to 10 different sounds. This project uses two trigger PINs on the sound board (supports 11 triggers).
 
